@@ -36,8 +36,8 @@ func main() {
 	fmt.Printf("%x\n", g)
 	g = hashwork(d, 1000000)
 	fmt.Printf("%x\n", g)
-	g = hashwork(d, 1000000000)
-	fmt.Printf("%x\n", g)
+	// g = hashwork(d, 1000000000)
+	// fmt.Printf("%x\n", g)
 }
 
 // workpool
